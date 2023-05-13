@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    background: #0B3E5B
+}
+
+.container {
+    width: 35rem;
+    margin: auto;
+   
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    color: #F6E8E0;
+    
+}
+
+span {
+    color: #F2392C;
+    
+}
+
+
+p {
+    font-family: 'Inter' sans-serif;
+    color: #F6E8E0;
+    margin-bottom: 40px
+
+}
+
+button {
+    background-color: #F2392C;
+    color: #F6E8E0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.password-container {
+    margin-top: 50px;
+    border-top: 1px solid #F6E8E0;
+    padding: 25px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.password {
+    background: #10567F;
+    width: 211px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #F3D053;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.options {
+    color: #F6E8E0;
+}
+
+.options input[type="checkbox"],
+.options label {
+  margin-bottom: 20px;
+}
+
+
+input {
+    accent-color: rgb(235, 235, 235);
+}
