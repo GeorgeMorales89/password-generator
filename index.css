@@ -3,34 +3,36 @@ body {
     margin: 0;
     background: #0B3E5B;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    width: 35rem;
-    margin: auto;
-   
+    width: 420px;
+    border: 7px solid whitesmoke;
+    border-radius: 5px;
+    padding: 50px 25px;
+    background-color: #062536;
+    padding: 30px 25px;
 }
 
 h1 {
     font-family: 'Karla', sans-serif;
     font-size: 40px;
-    margin-top: 115px;
     margin-bottom: 10px;
     color: #F6E8E0;
-    
 }
 
 span {
     color: #F2392C;
-    
 }
-
 
 p {
     color: #F6E8E0;
     margin-bottom: 40px;
     font-size: 19px;
-
 }
 
 button {
@@ -74,7 +76,6 @@ button {
 .options label {
   margin-bottom: 20px;
 }
-
 
 input {
     accent-color: rgb(235, 235, 235);
